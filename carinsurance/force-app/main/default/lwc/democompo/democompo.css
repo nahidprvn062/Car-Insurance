@@ -1,0 +1,69 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 100px;}
+header {
+	background: url('https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/i-series/i4/2021/bmw-i4-homepage-banner.jpg') no-repeat 50% 50%;
+	background-position: right;
+	/* https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/i-series/i4/2021/bmw-i4-homepage-banner.jpg */
+	
+	text-align: left;
+	width: 100%;
+	height: 50%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	/* border-radius: 0 0 85% 85% / 30%; */
+	padding: 20px;
+	color: #FFF;
+
+}
+/* header .overlay{
+	width: 100%;
+	height: 50%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b );
+	
+} */
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+.tabContent{display:block; padding:15px; font-size:25px; overflow: hidden; width: 70%;}
+/* .tabContent .postImage{display: inline-block; float:right; }
+.tabContent .postImage img{border:1px #ddd solid;} */
+.readMore{font-size:14px; font-weight:bold; display:inline-block; padding:0 0 0 10px;}
+.readMore a{color:#ff0000; text-decoration:none;}
+.readMore a:hover{color:#04a5ca; text-decoration:underline;}
+.titleTag{font-size:18px;}
+.titleTag a{color:#003333; font-weight:bold;}
+.imgRt{width:52%; float:left;}
+
+.table{  width: 100%;
+
+    
+
+   }

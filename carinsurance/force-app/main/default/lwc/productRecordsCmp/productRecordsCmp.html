@@ -1,0 +1,37 @@
+<template>
+        <lightning-card>
+          <table>
+            <tr>
+              <th>Product Name</th>
+              <th>Term</th>
+              <th>Mileage</th>
+              <th>Status</th>
+              <th>Expiration Date</th>            
+            </tr>
+            <tr>
+              <td>
+              <lightning-accordion allow-multiple-sections-open>
+                <template for:each={contractRecords} for:item="contract">  
+                  <lightning-accordion-section key={contract.Id} label={contract.Product_Insurance__r.Name}>
+                    <div class="contract-details">
+                      <div class="contract-item">
+                        <p><span class="label">Name:</span> {contract.Name}</p>
+                        <p><span class="label">Purchase Date:</span> {contract.Purchase_Date__c}</p>
+                        <p><span class="label">Starting Expiration Mileage:</span> {contract.Starting_Expiration_Mileage__c}</p>
+                        <p><span class="label">Deductible:</span> {contract.Deductible__c}</p>
+                      </div>
+                    </div>
+                  </lightning-accordion-section>
+                </template>
+              </lightning-accordion>
+           </td>
+            <td>
+              hello
+            </td>
+            <td>
+              world
+            </td>
+            </tr>
+          </table>
+        </lightning-card>
+        </template>
